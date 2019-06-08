@@ -9,7 +9,7 @@ confinement: devmode
 
 parts:
   roti:
-    source: .
+    source: https://github.com/FelixMo42/roti.git
     plugin: python
     python-version: python3
 
