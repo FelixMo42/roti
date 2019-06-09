@@ -1,4 +1,5 @@
 name: roti
+base: core18
 version: '0.1'
 summary: snap to controlle my robotics stuff
 description: |
@@ -9,7 +10,7 @@ confinement: devmode
 
 parts:
   roti:
-    source: https://github.com/FelixMo42/roti.git
+    source: ../
     plugin: python
     python-version: python3
 

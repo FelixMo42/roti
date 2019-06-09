@@ -1,0 +1,7 @@
+# snap build files
+/parts
+/prime
+/stage
+snap/.snapcraft
+
+roti_source.tar.bz2
