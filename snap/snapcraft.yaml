@@ -1,19 +1,15 @@
 name: roti
-base: core18
-version: '0.1'
-summary: snap to controlle my robotics stuff
-description: |
-  Nothing here yet!
-
-grade: devel
+version: 0.1
+summary: Robot controller code for roti
+description: Runs roti
 confinement: devmode
+
+apps:
+  roti:
+    command: python3 src/
 
 parts:
   roti:
-    source: ../
     plugin: python
     python-version: python3
-
-apps:
-  roti-start:
-    command: bin/roti
+    source: ./
