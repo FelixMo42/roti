@@ -1,12 +1,12 @@
 name: roti
-version: 0.1
+version: '0.1' + git
 summary: Robot controller code for roti
 description: Runs roti
 confinement: devmode
 
 apps:
   roti:
-    command: python3 src/
+    command: python3 ./src
 
 parts:
   roti:
